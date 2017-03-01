@@ -1,6 +1,8 @@
 import React, { PropTypes } from 'react'
 import ReactDOM from 'react-dom'
 
+import Layout from './components/Layout'
+
 const App = React.createClass({
   render () {
     return (
@@ -13,6 +15,6 @@ const App = React.createClass({
 })
 
 ReactDOM.render(
-    <App/>, document.getElementById('wrapper'))
+    <Layout/>, document.getElementById('wrapper'))
 
 export default App
